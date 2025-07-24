@@ -1,3 +1,4 @@
+
 /* header navbar */
 header {
     width: 80%;
@@ -24,6 +25,10 @@ nav ul {
 nav ul li a {
     text-decoration: none;
     color: black;
+}
+
+.hamburgar{
+    display: none;
 }
 
 .hero {
@@ -111,6 +116,7 @@ nav ul li a {
     cursor: pointer;
 }
 /* .image-container */
+
 .image-container {
     display: flex;
     padding-top: 3rem !important;
@@ -210,6 +216,7 @@ nav ul li a {
     font-size: bold;
 }
 /* .third-page */
+
 .third-page {
     padding-top: 5%;
     width: 100%;
@@ -239,7 +246,6 @@ nav ul li a {
     background-size: cover;
     background-position: center;
     color: white;
-    padding: 10px;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -254,7 +260,7 @@ nav ul li a {
 
 .card p {
     margin: 5px 0;
-    padding: 5px 10px;
+    padding: 5px 0;
     border: 1px solid white;
 }
 
@@ -341,6 +347,7 @@ nav ul li a {
 
 
 /* Professionals */
+
 .professionals {
     padding-top: 5%;
     width: 100%;
@@ -685,3 +692,5 @@ nav ul li a {
     margin: 0 10px;
     text-decoration: none;
 }
+
+
